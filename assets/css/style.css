@@ -1,0 +1,7 @@
+h1 > em {
+    font-size: 5rem;
+}
+
+body {
+    background-image: url("../img/wall.png");
+}
