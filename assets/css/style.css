@@ -4,6 +4,7 @@ h1 > em {
 
 body {
     background-image: url(../img/wall.png);
+    font-family:'Edu TAS Beginner';
 }
 
 main {
@@ -15,5 +16,4 @@ main {
 }
 
 img {
-    padding-right: 0.5rem;
 }
