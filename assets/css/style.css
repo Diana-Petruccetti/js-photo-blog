@@ -9,3 +9,7 @@ body {
 main {
     background-image: url(../img/cork.png);
 }
+
+.paper {
+    background-color: white;
+}
