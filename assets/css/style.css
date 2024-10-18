@@ -13,3 +13,7 @@ main {
 .paper {
     background-color: white;
 }
+
+img {
+    padding-right: 0.5rem;
+}
