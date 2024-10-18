@@ -3,5 +3,9 @@ h1 > em {
 }
 
 body {
-    background-image: url("../img/wall.png");
+    background-image: url(../img/wall.png);
+}
+
+main {
+    background-image: url(../img/cork.png);
 }
