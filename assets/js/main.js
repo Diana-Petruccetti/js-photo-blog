@@ -31,6 +31,9 @@ axios.get('https://jsonplaceholder.typicode.com/photos?_limit=6')
                 <div class="paper container">
                     <img class="pt-3" src="${url}" width="100%" height="" alt="">
                     <p class="mt-3"><em>${title}</em></p>
+                    <div class="d-flex justify-content-center">
+                        <button onclick="on()">Apri</button>
+                    </div>
                 </div>
             </div>
             `
@@ -41,3 +44,11 @@ axios.get('https://jsonplaceholder.typicode.com/photos?_limit=6')
         rowEl.innerHTML = rowElements
 
     }).catch(err => console.error(err))
+
+function on() {
+    document.getElementById("overlay").style.display ="block";
+}
+
+function off() {
+    document.getElementById("overlay").style.display = "none";
+}
