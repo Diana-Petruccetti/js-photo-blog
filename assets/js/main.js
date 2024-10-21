@@ -27,10 +27,10 @@ axios.get('https://jsonplaceholder.typicode.com/photos?_limit=6')
             const { url, title } = row
 
             const markup = `
-            <div class="col-4 mt-5">
+            <div class="col-4">
                 <div class="paper container">
                     <img class="pt-3" src="${url}" width="100%" height="" alt="">
-                    <p class="mt-3 pb-4">${title}</p>
+                    <p class="mt-3"><em>${title}</em></p>
                 </div>
             </div>
             `
