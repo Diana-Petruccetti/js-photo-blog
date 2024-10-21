@@ -42,8 +42,10 @@ axios.get('https://jsonplaceholder.typicode.com/photos?_limit=6')
 
     }).catch(err => console.error(err))
 
-function on() {
+function on(event) {
     document.getElementById("overlay").style.display ="block";
+    let element = event.currentTarget;
+  document.getElementById("photo").innerHTML = element;
 }
 
 function off() {
