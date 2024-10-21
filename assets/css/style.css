@@ -45,5 +45,6 @@ main {
     background-color: white;
     height: 31rem;
     margin-bottom: 3rem;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
     cursor: pointer;
 }
