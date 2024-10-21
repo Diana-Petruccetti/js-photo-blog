@@ -28,12 +28,9 @@ axios.get('https://jsonplaceholder.typicode.com/photos?_limit=6')
 
             const markup = `
             <div class="col-4">
-                <div class="paper container">
+                <div class="paper container" onclick="on()">
                     <img class="pt-3" src="${url}" width="100%" height="" alt="">
                     <p class="mt-3"><em>${title}</em></p>
-                    <div class="d-flex justify-content-center">
-                        <button onclick="on()">Apri</button>
-                    </div>
                 </div>
             </div>
             `

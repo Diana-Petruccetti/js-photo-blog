@@ -43,6 +43,7 @@ main {
 
 .paper {
     background-color: white;
-    height: 35rem;
+    height: 31rem;
     margin-bottom: 3rem;
+    cursor: pointer;
 }
