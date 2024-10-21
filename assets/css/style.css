@@ -10,7 +10,6 @@
     bottom: 0;
     background-color: rgba(0,0,0,0.5);
     z-index: 1000;
-    cursor: pointer;
 }
 
 #img {
@@ -19,6 +18,13 @@
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
+    margin-bottom: 3rem;
+}
+
+#btn2 {
+    padding-top: 3rem;
+    justify-content: center;
+    cursor: pointer;
 }
 /* end-overlay area */
 
